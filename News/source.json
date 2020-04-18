@@ -1,0 +1,19 @@
+{
+  "source": [
+    {
+      "id": 1,
+      "title": "Lenta.ru",
+      "url": "https://lenta.ru/rss"
+    },
+    {
+      "id": 2,
+      "title": "Gazeta.ru",
+      "url": "https://www.gazeta.ru/export/rss/lenta.xml"
+    },
+    {
+      "id": 3,
+      "title": "Yandex",
+      "url": "https://news.yandex.ru/auto.rss"
+    }
+  ]
+}
