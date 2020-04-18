@@ -40,7 +40,7 @@
   [self.tableView setRowHeight:UITableViewAutomaticDimension];
   [self.tableView setContentInset:UIEdgeInsetsMake(16, 0, 0, 0)];
   
-  UIBarButtonItem* settings = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit target:self.output action:@selector(openSettings)];
+  UIBarButtonItem* settings = [[UIBarButtonItem alloc] initWithTitle:SETTINGS_NAV_TITLE style:UIBarButtonItemStyleDone target:self.output action:@selector(openSettings)];
   self.navigationItem.rightBarButtonItem = settings;
   
   self.refresh = [UIRefreshControl new];
