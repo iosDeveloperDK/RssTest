@@ -12,6 +12,7 @@
 		8469F5DA244B04220059CDD4 /* NewsDetailConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8469F5D9244B04220059CDD4 /* NewsDetailConfigurator.m */; };
 		8469F5DD244B042C0059CDD4 /* NewsDetailInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8469F5DC244B042C0059CDD4 /* NewsDetailInteractor.m */; };
 		8469F5E0244B04330059CDD4 /* NewsDetailPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8469F5DF244B04330059CDD4 /* NewsDetailPresenter.m */; };
+		8469F5E7244B260A0059CDD4 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 8469F5E6244B260A0059CDD4 /* Readme.md */; };
 		846A2B56244A42660009A2B7 /* source.json in Resources */ = {isa = PBXBuildFile; fileRef = 846A2B55244A42660009A2B7 /* source.json */; };
 		846A2B59244A42F30009A2B7 /* NSourceReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 846A2B58244A42F30009A2B7 /* NSourceReader.m */; };
 		846A2B5C244A44C40009A2B7 /* SourceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 846A2B5B244A44C40009A2B7 /* SourceModel.m */; };
@@ -81,6 +82,7 @@
 		8469F5E3244B04F40059CDD4 /* NewsDetailPresenterInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsDetailPresenterInput.h; sourceTree = "<group>"; };
 		8469F5E4244B05050059CDD4 /* NewsDetailInteractorInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsDetailInteractorInput.h; sourceTree = "<group>"; };
 		8469F5E5244B11060059CDD4 /* NViewInputProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NViewInputProtocol.h; sourceTree = "<group>"; };
+		8469F5E6244B260A0059CDD4 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		846A2B55244A42660009A2B7 /* source.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = source.json; sourceTree = "<group>"; };
 		846A2B57244A42F30009A2B7 /* NSourceReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSourceReader.h; sourceTree = "<group>"; };
 		846A2B58244A42F30009A2B7 /* NSourceReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSourceReader.m; sourceTree = "<group>"; };
@@ -368,6 +370,7 @@
 				84C066462448A775004681C0 /* AppDelegate.m */,
 				84C066482448A775004681C0 /* SceneDelegate.h */,
 				84C066492448A775004681C0 /* SceneDelegate.m */,
+				8469F5E6244B260A0059CDD4 /* Readme.md */,
 				846A2B55244A42660009A2B7 /* source.json */,
 				84C0664E2448A775004681C0 /* Main.storyboard */,
 				84C066542448A776004681C0 /* Assets.xcassets */,
@@ -611,6 +614,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8469F5E7244B260A0059CDD4 /* Readme.md in Resources */,
 				84C066582448A776004681C0 /* LaunchScreen.storyboard in Resources */,
 				848AB6BD2449A1800056FC4F /* SettingsViewController.xib in Resources */,
 				84C066552448A776004681C0 /* Assets.xcassets in Resources */,
