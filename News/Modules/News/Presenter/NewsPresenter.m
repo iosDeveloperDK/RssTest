@@ -29,6 +29,7 @@
   _view = vc;
   _request = [NSFetchRequest fetchRequestWithEntityName:NEWS_ENTITY_KEY];
   [_request setSortDescriptors:@[[NSSortDescriptor sortDescriptorWithKey:XML_PUBDATE_KEY ascending:NO]]];
+  
   [self setFetchedResultsController:[[NSFetchedResultsController alloc] initWithFetchRequest:_request managedObjectContext:[[NDatabaseService sharedInstance] getContext] sectionNameKeyPath:nil cacheName:nil]];
   [[self fetchedResultsController] setDelegate:_view];
   [self perfomeFetch];
@@ -62,7 +63,9 @@
 }
 
 - (void)fetchData {
+  __weak typeof(self)weakSelf = self;
   [self.interactor fetchData:^(NSArray * models, NSError* error) {
+    __strong typeof(self)self = weakSelf;
     if (error) {
       [self.view showError:error];
     } else {

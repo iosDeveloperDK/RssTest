@@ -26,8 +26,10 @@
   return self;
 }
 
--(void)fetchData:(NewsCompletionBlock)block; {  
+-(void)fetchData:(NewsCompletionBlock)block; {
+  __weak typeof(self)weakSelf = self;
   [self.rss rssRead:[NSourceReader getSources] completionBlock:^(NSArray * _Nonnull models, NSError * _Nonnull error) {
+    __strong typeof(self)self = weakSelf;
     for (NSDictionary* model in models) {
       [self.db appendNews:model];
     }
